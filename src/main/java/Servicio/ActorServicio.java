@@ -70,7 +70,6 @@ public class ActorServicio implements IActorServicio {
 
     @Override
     public boolean almacenarEnArchivo(Actor actor, String rutaArchivo) throws Exception {
-        //throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
         var retorno = false;
         DataOutputStream salida = null;
         try {
@@ -89,7 +88,6 @@ public class ActorServicio implements IActorServicio {
 
     @Override
     public List<Actor> recuperarDeArchivo(String rutaArchivo) throws Exception {
-        //throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
         var actorList = new ArrayList<Actor>();
         DataInputStream entrada = null;
         try {

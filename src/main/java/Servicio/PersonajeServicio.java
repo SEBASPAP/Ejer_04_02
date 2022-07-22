@@ -85,7 +85,6 @@ public class PersonajeServicio implements IPersonajeServicio {
 
     @Override
     public List<Personaje> recuperarDeArchivo(String rutaArchivo) throws Exception {
-        //throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
         var personajeList = new ArrayList<Personaje>();
         DataInputStream entrada = null;
         try {
